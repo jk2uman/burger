@@ -1,6 +1,6 @@
 var mysql = require("mysql");
 
-if (process.env.CLEARDB_URL) {
+if (process.env.CLEARDB_DATABASE_URL) {
     mysql://b65896c035574d:40a43228@us-cdbr-iron-east-02.cleardb.net/heroku_b84cc6620c0e7d2?reconnect=true
     connection = mysql.createConnection({
         host: "us-cdbr-iron-east-02.cleardb.net",

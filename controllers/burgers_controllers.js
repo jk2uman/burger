@@ -5,7 +5,7 @@ var burger = require("../models/burger");
 // Create the router for the app, and export the router at the end of your file.
 var router = express.Router();
 // Create routes and set up logic where required.
-// Trying to fix get, post, put, and delete routes
+// Get, Post, Put, and Delete routes
 router.get("/", function (req, res) {
     burger.selectAll(function (data) {
         var hbsObject = {
